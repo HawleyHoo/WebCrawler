@@ -22,3 +22,7 @@ _testmain.go
 *.exe
 *.test
 *.prof
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/workspace.xml
+.idea/workspace.xml

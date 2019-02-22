@@ -31,11 +31,7 @@ func RuleProvider() Rule {
 3. -cookie 可选，用户使用的cookie， chrome下可以打开[http://jandan.net](http://jandan.net)，按F12键，选择network项查看，这个参数主要在抓取时发生503错误使用的，默认不用指定
 4. -pagesort 可选，指定页码增加规则， 1为升序，0为降序，默认为0
 
-## 效果
 
-![](./art/1.png)
-
-^_^ 图片就不展示了， 大家可以自己运行看。
 
 ## 扩展
 
@@ -69,4 +65,3 @@ func (p *JandanRule) ImageRule(doc *goquery.Document, f func(image string)) {
 2. 第二个方法根据当前页返回url后面的页面信息
 3. 第三个方法是内容匹配规则， 将匹配到的内容利用f函数返回
 
-还有哪些你喜欢的网站呢？ 赶紧定制规则来尝试抓取吧。 或者提Issue我来添加抓取规则！
