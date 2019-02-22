@@ -1,8 +1,3 @@
-# Meizar（注意：仅供娱乐）
-
-golang实现抓取妹子图
-
-默认图片来源网站：[http://jandan.net](http://jandan.net)
 
 依赖项目：[https://github.com/PuerkitoBio/goquery](https://github.com/PuerkitoBio/goquery)
 
