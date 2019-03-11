@@ -1,8 +1,4 @@
 
-依赖项目：[https://github.com/PuerkitoBio/goquery](https://github.com/PuerkitoBio/goquery)
-
-
-
 1. 增加RuleProvider函数，所以，切换Rule时，只需要修改RuleProvider的返回值就可以
 2. 增加一个新的Rule-MeiRule，该Rule用来抓取[https://meizi.us/](https://meizi.us/)图片
 3. 增加pagesort参数，用来指定页码增加规则， 1为升序，0为降序，默认为0
